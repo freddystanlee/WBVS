@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+.title{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.adminlogin{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5% 25%;
+    width: 50%;
+    background-color: rgb(211, 211, 211);
+}
+.adminlogin form div{
+    margin: 5px 40px 20px 40px;
+}
+
+.adminlogin form div label{
+    font-size: 20px;
+    color: black;
+}
+.adminlogin form div input{
+    height: 40px;
+    font-size: medium;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    box-sizing: border-box;
+}
+
+.loginbtn{
+    background-color: rgb(0, 173, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.resetbtn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+
+}
+
+.loginbtn:hover{
+    background-color: rgb(0, 141, 0);
+    cursor: pointer;
+}
+
+.resetbtn:hover{
+    background-color: rgb(204, 0, 0);
+    cursor: pointer;
+}

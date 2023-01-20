@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.profile-title h2{
+    text-align: center;
+    background-color: orange;
+    color: black;
+    margin-top: 0;
+}
+
+.profile{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 3%;
+    border: 2px solid black;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.picture{
+    text-align: center;
+}
+
+.picture img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.profpic-section div{
+    text-align: center;
+}
+
+/* FULLNAME */
+.fullname-section{
+    margin-bottom: 30px;
+}
+.fullname-section div{
+    text-align: center;
+}
+.fullname-section div label{
+    font-size: 18px;
+}
+.fullname-section div input{
+    font-size: 15px;
+    width: 35%;
+    border-radius: 3px;
+    padding: 8px 13px;
+}
+
+/* USERNAME */
+.username-section{
+    margin-bottom: 30px;
+}
+.username-section div{
+    text-align: center;
+}
+.username-section div label{
+    font-size: 18px;
+}
+.username-section div input{
+    font-size: 15px;
+    width: 35%;
+    border-radius: 3px;
+    padding: 8px 13px;
+}
+
+/* EMAIL */
+.email-section{
+    margin-bottom: 30px;
+}
+.email-section div{
+    text-align: center;
+}
+.email-section div label{
+    font-size: 18px;
+}
+.email-section div input{
+    font-size: 15px;
+    width: 35%;
+    border-radius: 3px;
+    padding: 8px 13px;
+}
+
+button{
+    margin-left: 9px;
+    border-radius: 3px;
+    padding: 9px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 182, 0);
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(0, 145, 0);
+    cursor: pointer;
+}
+

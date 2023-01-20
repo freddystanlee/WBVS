@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+/*  font-family: 'Qwigley', cursive; */
+
+/* GLOBAL STYLING */
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* NAVBAR */
+.navcontainer{
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+}
+
+/*  NAVBAR LEFT SIDE */
+.logo{
+    font-family: 'Qwigley', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+}
+.logo:hover{
+    color: orange;
+}
+
+/*  NAVBAR MIDDLE SIDE */
+.navlinks{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navlinks li{
+    display: inline-block;
+}
+
+.navlinks li a{
+    color: white;
+    margin: 0 35px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navlinks li a:hover{
+    color: orange;
+}
+
+/* NAVBAR RIGHT SIDE */
+.logout-btn a{
+    font-size: 0;
+}
+
+.logout-btn a button{
+    margin: 0 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: 3px solid orange;
+    border-radius: 50px;
+}
+
+.logout-btn a button:hover{
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+
+form{
+    background-color: rgb(207, 207, 207);
+}
+
+.title{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* LOGIN FORM */
+.loginform{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5% 25%;
+    width: 50%;
+}
+.loginform form div{
+    margin: 5px 40px 20px 40px;
+}
+
+.loginform form div label{
+    font-size: 20px;
+    color: black;
+}
+.loginform form div input{
+    height: 40px;
+    font-size: medium;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    box-sizing: border-box;
+}
+
+
+/* REGISTER FORM */
+.registrationform{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5% 25%;
+    width: 50%;
+}
+
+.registrationform form div{
+    margin: 5px 40px 20px 40px;
+}
+
+.registrationform form div label{
+    font-size: 20px;
+    color: black;
+}
+.registrationform form div input{
+    height: 40px;
+    font-size: medium;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    box-sizing: border-box;
+}
+
+.registrationform form div select{
+    height: 40px;
+    font-size: medium;
+    padding: 0 20px;
+    width: 15%;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    box-sizing: border-box;
+}
+
+.resetbtn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+
+}
+.submitbtn{
+    background-color: rgb(0, 173, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.loginbtn{
+    background-color: rgb(0, 173, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.resetbtn:hover{
+    background-color: rgb(204, 0, 0);
+    cursor: pointer;
+}
+
+.submitbtn:hover{
+    background-color: rgb(0, 141, 0);
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    background-color: rgb(0, 141, 0);
+    cursor: pointer;
+}
+
+.shortcut{
+    padding-bottom: 20px;
+}
+
+
+
+
