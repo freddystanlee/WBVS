@@ -20,6 +20,6 @@
             </nav>
             <div class="lr-btn">
                 <a href='loginform.php'><button>LOGIN</button></a>
-                <a href='registerform.php'><button>REGISTER</button></a>";
+                <a href='registerform.php'><button>REGISTER</button></a>
             </div>
         </header>
